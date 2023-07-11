@@ -1,0 +1,124 @@
+.userPage {
+    background: #0f0e0e;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+    padding-top:20px;
+}
+
+.userPage .userPagewrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.userPage .userPagewrapper .moviesWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.userPage .userPagewrapper .selectMovieWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.userPage .userPagewrapper .selectMovieWrapper div:first-child {
+  position: relative;
+}
+
+/* .userPage .userPagewrapper .selectMovieWrapper button:first-child {
+  height: 100% !important;
+  position: absolute;
+  left: 250px;
+  background: rgb(15, 14, 14, 0.9) !important;
+  z-index: +9999;
+  width: 160px !important;
+}
+
+.userPage .userPagewrapper .selectMovieWrapper button:last-child {
+  height: 100% !important;
+  position: absolute;
+  right: 250px;
+  background: rgb(15, 14, 14, 0.9) !important;
+  z-index: +9999;
+  width: 160px !important;
+} */
+
+.movieCard {
+    width: 300px;
+    overflow: hidden;
+    height: 300px;
+    border: 1px solid #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.movieCard  h2 {
+  width: 100%;
+  text-align: center;
+  background-color: #0f0e0e;
+  margin-bottom: 0;
+  padding: 12px;
+}
+
+.movieCard img {
+    width: 100%;
+}
+
+.carousel-control-prev {
+    left: -120px !important;
+}
+
+.carousel-control-next {
+    right: -120px !important;
+}
+
+.carousel-indicators {
+    display: none !important;
+}
+
+.movieSlide {
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+  }
+  
+  .movieSlideItem {
+    flex: 0 0 25%;
+    padding: 0 10px;
+    transition: opacity 0.5s ease;
+  }
+  
+  .carouselButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .movieCard:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+  .carouselWrapper {
+    width: 100%;
+  }
+
+  .carousel {
+    position: relative;
+    background-color: #252525;
+}

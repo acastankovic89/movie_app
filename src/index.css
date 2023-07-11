@@ -5,3 +5,75 @@ body {
   padding: 0;
   font-family: 'Martel Sans', sans-serif;
 }
+
+.red.btn.logIn {
+  font-size: 16px;
+  font-weight: 500;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 3px;
+  background: #e50914;
+  color: #fff;
+  height: 50px;
+  cursor: pointer;
+}
+
+.white.btn.logIn {
+  font-size: 16px;
+  font-weight: 500;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  color: #000;
+  height: 50px;
+  cursor: pointer;
+}
+
+.red.btn.logIn.disabled {
+  font-size: 16px;
+  font-weight: 500;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 3px;
+  background: #333;
+  color: #fff;
+  height: 50px;
+  cursor: none;
+}
+
+.require {
+    border-bottom: 2px solid #e87c03 !important;
+    width: 100%;
+}
+
+.formInput.logIn.black {
+  width: 80%;
+  background: #333;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  height: 50px;
+  padding: 3px 10px;
+}
+
+.formInput.logIn.black::placeholder {
+  color: #8c8c8c;
+  font-size: 16px;
+}
+
+.authMessage {
+    color: #e87c03;
+    padding: 6px 3px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+    top: -40px;
+}

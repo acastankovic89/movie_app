@@ -1,0 +1,30 @@
+.registerUser {
+    background-image: url('../../assets/img/registerUser.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.registerUser .registerUserWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.registerUser .registerUserWrapper form {
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+}
+
+.registerUser .registerUserWrapper form .authMessage {
+    top: 0 !important;
+}

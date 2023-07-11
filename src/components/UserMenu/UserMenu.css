@@ -1,0 +1,64 @@
+.userMenu {
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: +9999;
+    background-color: #0f0e0e;
+}
+
+.userMenu:hover .userMenuWrapper {
+    height: 180px;
+    transition: height 0.5s;
+}
+
+.userMenu:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.userMenu .userMenuWrapper {
+    transition: height 0.5s;
+    overflow: hidden;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.userMenu .userMenuWrapper .desc {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userMenu .userMenuWrapper .desc svg {
+    font-size: 35px;
+    margin-right: 5%;
+    width: fit-content;
+    border: 3px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #e50914;
+}
+
+.userMenu .userMenuWrapper .desc p {
+    width: fit-content;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 500;
+}
+
+.userMenu .userMenuWrapper .logOutButton {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.userMenu .userMenuWrapper .logOutButton button {
+    width: 90px;
+    transition: 0.5s; /* Place the transition property here */
+}

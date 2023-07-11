@@ -1,0 +1,36 @@
+.adminLogInWrapper {
+    background-image: url('../../assets/img/adminLogIn.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.adminLogInWrapper .formWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.adminLogInWrapper .formWrapper form {
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+}
+
+.adminLogInWrapper .formWrapper form h3 {
+    width: 80%;
+    text-align: left;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+

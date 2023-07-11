@@ -1,0 +1,26 @@
+.userLogIn {
+    background-image: url('../../assets/img/userSignIn.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.userLogIn .userLogInWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.userLogIn .userLogInWrapper form {
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+}

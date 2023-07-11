@@ -1,0 +1,189 @@
+.adminHome {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/img/adminPage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.adminHomeWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: scroll;
+    flex-wrap: wrap;
+}
+
+.adminHomeWrapper .addAdminWrapper {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 0px;
+    overflow: auto;
+    transition: 0.7s;
+    position: absolute;
+    left: 0px;
+    top: 66px;
+}
+
+.adminHomeWrapper .addAdminModal {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    height: 600px;
+    margin-bottom: 40px;
+    padding: 3px 20px;
+    overflow: hidden;
+}
+
+.adminHomeWrapper .addMovieModal {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    height: 600px;
+    margin-bottom: 40px;
+    padding: 3px 20px;
+    overflow: hidden;
+}
+
+.adminHomeWrapper .deleteMovieModal {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    height: 600px;
+    margin-bottom: 40px;
+    padding: 3px 20px;
+    overflow: hidden;
+}
+
+.adminHomeWrapper .deleteMovieModal .deleteMovieWrapper {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #000;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 0px;
+    overflow: auto;
+    transition: 0.7s;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+
+.adminHomeWrapper .deleteMovieModal .deleteMovieWrapper form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.adminHomeWrapper .deleteMovieModal .deleteMovieWrapper form input {
+    margin-bottom: 20px !important;
+}
+
+.adminHomeWrapper .deleteMovieModal .deleteMovieWrapper form select {
+    width: 80%;
+    margin: 15px auto;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 7px;
+}
+     
+
+.adminHomeWrapper .modalOpener {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    height: 40px;
+    background-color: #333;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.adminHomeWrapper .modalOpener h3 {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.adminHomeWrapper .modalOpener .fa-chevron-down {
+    color: #fff;
+}
+
+.adminHomeWrapper .addAdminWrapper form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adminHomeWrapper .addAdminWrapper form input {
+    margin-bottom: 20px !important;
+}
+
+.adminHomeWrapper .addAdminWrapper form input:first-child {
+    margin-top: 20px !important;
+}
+
+.adminHomeWrapper .addAdminWrapper form .red.btn.logIn {
+    margin-bottom: 20px !important;
+}
+
+.adminHomeWrapper .addAdminWrapper form .durationInput {
+    width: 80%;
+}
+
+.adminHomeWrapper .addAdminWrapper form .durationInput p {
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.adminHomeWrapper .addAdminWrapper form select {
+    width: 80%;
+    margin: 15px auto;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.adminHomeWrapper .addAdminWrapper form select option {
+    width: 100%;
+}
+/* @media(max-width: 1400px) {
+    .adminHomeWrapper {
+        flex-direction: column;
+    }
+} */
